@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <ImageView
+        android:id="@+id/user_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/user_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter age"
+        android:textSize="20dp"
+        android:textColor="#f50808"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/radioSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMALE" />
+
+        <RadioButton
+            android:id="@+id/radioOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OTHER" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/user_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:textSize="20dp"
+        android:textColor="#f50808"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/save_details"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+
+   <ImageView
+       android:id="@+id/row_tracker_image"
+       android:background="@drawable/place_holder"
+       android:layout_width="@dimen/DP_60"
+       android:layout_height="@dimen/DP_60" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/row_tracker_image"
+        android:id="@+id/row_tracker_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/arrows"
+        android:layout_width="@dimen/DP_40"
+        android:layout_height="@dimen/DP_40" />
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="DP_10">10dp</dimen>
+    <dimen name="DP_20">20dp</dimen>
+    <dimen name="DP_60">60dp</dimen>
+    <dimen name="DP_40">40dp</dimen>
+    <dimen name="DP_16">16dp</dimen>
+    <dimen name="DP_100">100dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="SP_16">16sp</dimen>
+
+</resources>

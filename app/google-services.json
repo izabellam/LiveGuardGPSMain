@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "145454848775",
+    "firebase_url": "https://gpsguard-85517.firebaseio.com",
+    "project_id": "gpsguard-85517",
+    "storage_bucket": "gpsguard-85517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145454848775:android:0a2ae00a715f1efb",
+        "android_client_info": {
+          "package_name": "com.example.keren.liveguardgps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145454848775-15e9d22o0ndtgh5qdcbdl32cfj8d0q8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keren.liveguardgps",
+            "certificate_hash": "ed4aaa620d3b2c3b1cc2277a10982d3a53d33492"
+          }
+        },
+        {
+          "client_id": "145454848775-8s9ocnbfalhio4o0mq96jkoehlakhier.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjLqWIw01KvqM0SJH8h08I_9jd5eOKkIE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145454848775-8s9ocnbfalhio4o0mq96jkoehlakhier.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
